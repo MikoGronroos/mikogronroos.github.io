@@ -1,0 +1,40 @@
+#grid-container
+{
+    width: 502px;
+    height: 502px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+.slot
+{
+    background-color: darkgreen;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+div 
+{
+    cursor: url('Shovel50x10.png'), auto;
+}
+
+#info
+{
+    background-color: purple;
+}
+
+#treasure 
+{
+    background-color: gold;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+#opened
+{
+    background-color: brown;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
