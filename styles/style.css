@@ -2,66 +2,10 @@ body {
     background-color: #f8b500;
 }
 
-.topnav {
-    background-image: url("../pictures/CodeExample.png");
-    overflow: hidden;
-    width: 100%;
-    padding-bottom: 255px;
-    padding-top: 2px;
-    padding-right: 2px;
-    padding-left: 2px;
-}
-
-.topnav a {
-    display: block;
-    float: right;
-    color: #5c636e;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-    border-right: 1px solid black;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.topnav a:last-child{
-    border-left: 1px solid black;
-}
-
-.topnav a:hover {
-    background-color: #43658b;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #f8b500;
-    color: #43658b;
-}
-
 #title {
     text-align: center;
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: -5.3%;
     color: #5c636e;
-}
-
-#slot1 {
-    width: 350px;
-    height: 350px;
-    background-color: white;
-}
-
-#slot2 {
-    right: 250px;
-    background-color: white;
-    width: 350px;
-    height: 350px;
-}
-
-#slot3 {
-    left: 250px;
-    background-color: white;
-    width: 350px;
-    height: 350px;
 }
