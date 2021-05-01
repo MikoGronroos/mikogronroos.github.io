@@ -2,6 +2,16 @@ body {
     background-color: #f8b500;
 }
 
+.topnav {
+    background-image: url("../pictures/CodeExample.png");
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 255px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
 #title {
     text-align: center;
     font-size: 100px;
