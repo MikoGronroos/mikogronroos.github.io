@@ -2,18 +2,19 @@
 .topnav {
     overflow: hidden;
     background-color: #a0a0a0;
-    border-width: 2px;
+    border-width: 3px;
     border-style: solid;
 }
 
 #title{
-    font-size: 100px;
+    font-size: 500%;
     font-family: 'Times New Roman', Times, serif;
     color: #5c636e;
 }
 
 #degree{
     text-align: center;
+    font-size:  125%;
     font-family: 'Times New Roman', Times, serif;
     color: #5c636e;
 }
@@ -42,6 +43,19 @@ body {
     background-color: #1c1b29;
     border-radius: 20px;
     box-shadow:  0 0 30px rgba(0,0,0,0.18);
+    position: relative;
+    transition-duration: 0.15s;
+}
+
+.card:hover{
+    position: relative;
+
+    cursor: pointer;
+    transform-origin: center;
+    transform: scale(1.03);
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
 }
 
 .container{
@@ -55,7 +69,7 @@ img{
     border-radius: 20px 20px 0 0;
 }
 
-.container::after{
+.container:after{
     content: "";
     height: 100%;
     width: 100%;
@@ -66,16 +80,6 @@ img{
     opacity:  0.7;
 }
 
-.card1>.container:after{
-    background-image:  linear-gradient(135deg, #0100ec, #fb36f4);
-}
-.card2>.container:after{
-    background-image:  linear-gradient(135deg, #0100ec, #fb36f4);
-}
-.card3>.container:after{
-    background-image:  linear-gradient(135deg, #0100ec, #fb36f4);
-}
-
 .details{
     padding: 20px 10px;
 }
@@ -83,13 +87,13 @@ img{
 .details>h3{
     color: #ffff;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
     margin: 10px 0 15px 0;
 }
 
 .details>p{
     color: #a0a0a0;
-    font-size: 15px;
+    font-size: 19px;
     line-height: 30px;
     font-weight: 400;
 }
