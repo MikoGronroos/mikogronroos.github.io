@@ -49,7 +49,6 @@ body {
 
 .card:hover{
     position: relative;
-
     cursor: pointer;
     transform-origin: center;
     transform: scale(1.03);
@@ -96,4 +95,23 @@ img{
     font-size: 19px;
     line-height: 30px;
     font-weight: 400;
+}
+
+.socialImg{
+    position: relative;
+    transition-duration: 0.15s;
+    align-self: right;
+    float:right;
+    width: 10%;
+    height: 10%;
+}
+
+.socialImg:hover{
+    position: relative;
+    cursor: pointer;
+    transform-origin: center;
+    transform: scale(1.09);
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
 }
