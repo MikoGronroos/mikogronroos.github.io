@@ -1,22 +1,21 @@
 
 .topnav {
+    margin-top: 10%;
     overflow: hidden;
-    background-color: #a0a0a0;
-    border-width: 3px;
-    border-style: solid;
+    background-color: rgb(22, 22, 22);
 }
 
 #title{
     font-size: 500%;
     font-family: 'Times New Roman', Times, serif;
-    color: #5c636e;
+    color: floralwhite;
 }
 
 #degree{
     text-align: center;
     font-size:  125%;
     font-family: 'Times New Roman', Times, serif;
-    color: #5c636e;
+    color: floralwhite;
 }
 
 *{
@@ -26,7 +25,7 @@
 }
 
 body {
-    background-color: #a0a0a0;
+    background-color: rgb(22, 22, 22);
     display: grid;
     place-items: center center;
     font-family:  'Poppins',sans-serif;
