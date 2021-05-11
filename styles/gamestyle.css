@@ -1,8 +1,70 @@
 body{
     background-color: rgb(22, 22, 22);
+    font-family:  'Poppins',sans-serif;
 }
 
 .Title{
     text-align: center;
     color: floralwhite;
+    font-size: 325%;
+}
+
+h2{
+    text-align: center;
+    color: floralwhite;
+    font-size: 300%;
+    padding-bottom:8px;
+	border-bottom:1px solid floralwhite;
+    margin-left: 18%;
+    margin-right: 18%;
+	font-weight: bold;
+}
+
+.GameImage{
+    width: 640px;
+    height: 360px;
+}
+
+p{
+    color: floralwhite;
+    font-size: 150%;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#navigation-wrapper {
+    width:465px;
+    margin: 0 auto;
+    text-align: left;
+}
+   
+#top-navigation {
+    display:inline-block;
+    padding:5px 0;
+}
+
+li{
+    color: floralwhite;
+    font-size: 150%;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.text{
+    text-align: center;
+}
+
+h3{
+    color: floralwhite;
+    font-size: 225%;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
 }
