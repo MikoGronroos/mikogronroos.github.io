@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../styles/gamestyle.css">
+    <link rel="stylesheet" type="text/css" href="../styles/navbarStyle.css">
     <title>Robot Game</title>
 </head>
 <body>
+
+    <div class="topnav">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+    </div>
+
     <h1 class="Title">Robot Game</h1>
-    <img class="GameImage" src="../pictures/EpicRobotGameIcon.png"></img>
+
+    <video class="GameImage" controls>
+        <source src="../videos/EpicRobotGameDemoVideo.mp4" type="video/mp4">
+    </video>
+
     <h2>Details</h2>
     <h3>Role(s)</h3>
     <div id="navigation-wrapper">
@@ -19,10 +30,19 @@
         </ul>
     </div>
     <p class="text">
-        dwakowkodkaodkwodkao
-        <br>wkdoakdowkdokwokdoakdwa
-        <br>wkdoakdowkdokwokdoakdwa
+        Help the robot reach the goal by using visual programming language.
+        <br>
+        <br>Visual programming has four different commands. The commands are move forward, jump forward, turn left 90 degrees and turn right 90 degrees.
+        <br>
+        <br>Collect all batteries before completing the level to win.
     </p>
-    <button onclick="location.href='../index.html'">Valikko</button>
+    <h3>Software</h3>
+    <div id="navigation-wrapper">
+        <ul id="top-navigation">
+            <li>Unity</li>
+            <li>Visual Studio 2019 Community</li>
+            <li>Github & Github Desktop</li>
+        </ul>
+    </div>
 </body>
 </html>

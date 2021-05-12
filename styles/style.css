@@ -1,5 +1,5 @@
 
-.topnav {
+.toppanel {
     margin-top: 10%;
     overflow: hidden;
     background-color: rgb(22, 22, 22);
@@ -7,13 +7,14 @@
 
 #title{
     font-size: 500%;
-    font-family: 'Times New Roman', Times, serif;
-    color: floralwhite;
 }
 
 #degree{
     text-align: center;
     font-size:  125%;
+}
+
+.text{
     font-family: 'Times New Roman', Times, serif;
     color: floralwhite;
 }
