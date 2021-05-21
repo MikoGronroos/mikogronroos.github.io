@@ -15,7 +15,13 @@ h1{
     font-size: 500%;
     font-family: 'Times New Roman', Times, serif;
     color: floralwhite;
+    margin-bottom: 2%;
 }
+
+h1.nottoplabel{
+    margin-top: 4%;
+}
+
 .text{
     text-align: justify;
     margin: 0 auto;
