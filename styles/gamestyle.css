@@ -77,6 +77,12 @@ li{
     width: 30em;
 }
 
+.centerText{
+    font-family: 'Times New Roman', Times, serif;
+    color: floralwhite;
+    text-align: center;
+}
+
 h3{
     margin-top: 3%;
     padding-bottom: 1%;
