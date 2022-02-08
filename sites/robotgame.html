@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../styles/gamestyle.css">
     <link rel="stylesheet" type="text/css" href="../styles/navbarStyle.css">
+    <link rel="stylesheet" type="text/css" href="../styles/codeSnippet.css">
     <title>Robot Game</title>
 </head>
 <body>
@@ -22,6 +23,32 @@
     </video>
 
     <h2>Details</h2>
+
+    <div class="container">
+        <p class="language" id="language-copy">JavaScript</p>
+        <div class="code-wrapper">
+          <pre>
+                  <code id="code">
+  function fibonacci(num)
+  {
+    var num1=0;
+    var num2=1;
+    var sum;
+    var i=0;
+    for (i = 0; i < num; i++)
+      {
+        sum=num1+num2;
+        num1=num2;
+        num2=sum;
+      }
+      return num2;
+  }
+                      
+  console.log(fibonacci(155));</code>
+              </pre>
+        </div>
+      </div>
+      
     <h3>Role(s)</h3>
     <div id="navigation-wrapper">
         <ul id="top-navigation">
