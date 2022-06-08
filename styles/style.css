@@ -15,12 +15,11 @@
 }
 
 .text{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:  'Poppins',sans-serif;
     color: floralwhite;
 }
 
 *{
-    padding: 0;
     margin: 0;
     box-sizing:  border-box;
 }
@@ -29,7 +28,6 @@ body {
     background-color: rgb(22, 22, 22);
     display: grid;
     place-items: center center;
-    font-family:  'Poppins',sans-serif;
 }
 
 .details{
